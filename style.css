@@ -1,0 +1,80 @@
+*{
+	font-family: 'Work Sans', sans-serif;
+	padding: 0;
+	margin:0;
+}
+
+body{
+	position: relative;
+	background-image: url('background.png');
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.div {
+	display: block;
+	border-style: solid;
+	border-color: #9BA17B;
+	background-color: #FAD6A5;
+	margin: 10px;
+	padding: 20px;
+}
+
+h1 {
+	font-family: 'Eagle Lake', cursive;
+	color: #61764B;
+	text-align: center;
+}
+
+header{
+	postion: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #61764B;
+}
+
+li{
+	list-style: none;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.container{
+	width: 1280px;
+	margin: auto;
+	background-color: #61764B;
+}
+
+.navbar{
+	width: 95%;
+	margin: auto;
+	min-height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+}
+
+.nav-branding{
+	font-family: 'Eagle Lake', cursive;
+	font-size: 2rem;
+}
+
+@media(max-width:1280px){
+	.container{
+		width: 100%;
+	}
+}
